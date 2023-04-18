@@ -1,0 +1,1711 @@
+
+* {
+    box-sizing: border-box;
+}
+
+.company_name{
+    
+    margin-left: 40px;
+    margin-top: 20px;
+    height: 200px;
+}
+.head{
+    display: flex;
+    width: 100%;
+    background-color: white;  
+}
+#phnicon,#mailicon{
+    color: blue;
+    padding-top: 50px;
+}
+.headlist{
+    display: flex;
+    list-style: none;
+}
+.contactno{
+    margin-left: 5%;
+    margin-top: 80px;
+    color: black;
+    font-family: cursive;
+    text-decoration: none;
+    font-weight: bolder;
+}
+#con_mail{
+    text-decoration: none;
+    color: black;
+}
+a:hover{
+    color: tomato;
+}
+#home:hover,#about:hover,#cfo:hover,#join:hover,#blog:hover,#contact:hover{
+    color: tomato;
+}
+
+
+.mail{
+    margin-left: 5%;
+    margin-top: 80px;
+    color: black;
+    font-family: cursive;
+    text-decoration: none;
+    font-weight: bolder;
+}
+
+ .menu{
+    list-style: none;
+    display: flex;
+    margin-left: 25%;
+} 
+#home,#about,#cfo,#corporate,#insolvency,#join,#blog,#contact{
+    
+    margin: 15px 10px 20px 10px; 
+    
+    
+    font-family: cursive;
+    color: black;
+    text-decoration: none;  
+    font-weight: bolder;
+      
+}
+
+section{
+     height: 400px;
+     width: 1520px;
+     background-image: url(./jitu2.jpg);
+     
+ }
+ .main{
+     margin-left: 60%;
+     margin-top: 0px;
+     padding: 30px;
+     color: white;
+    
+     
+        
+ }
+ .professional{
+     display: flex;
+     word-spacing: 10px;
+     text-align-last: right;
+     color:whitesmoke;
+     margin-bottom: 0px;
+ }
+ .take{
+     font-size: xx-large;
+     margin-top: 10px;
+     margin-right: 40px;
+     color:whitesmoke;
+ }
+ .button2{
+     border-width: 1px;
+     font-size: large;
+     margin-left: 10px;
+     padding: 10px;
+     background-color: rgba(255, 255, 255, 0);
+     border-style:solid;
+     color: whitesmoke;
+     cursor: pointer;
+     text-decoration: none;
+    
+
+     
+ }
+ a{
+     color: white;
+ }
+
+ .states{
+     background-color:whitesmoke;
+     width: 30%;
+     height: 300px;
+     margin-left: 10%;
+     box-shadow: 0 5px 20px rgb(0 0 0 / 0.2);
+
+ }
+ .optimize{
+     margin-left: 90px;
+     margin-top: 0px;
+     padding-top: 40px;
+     color: orange;
+     
+ }
+ .peragraph{
+     margin-left:130px;
+     margin-top: 0px;
+     padding-top: 10px;
+     margin-bottom: 0px;
+     font-size: xx-large;
+ }
+ .consultation{
+    margin-left:90px;
+    margin-top: 0px;
+    font-size: xx-large;
+}
+
+ .get{
+     margin-left: 35%;
+     padding: 15px;
+     border-radius: 1px;
+     border-width: 0px;
+     background-color: orange;
+     
+         
+ }
+.cfo_services{
+    display: flex;
+    
+
+}
+
+ .img19{
+     height: 349px;
+     width: 270px;
+     margin-top: 250px;
+     margin-left: 110px; 
+     box-shadow: 20px 20px 20px rgba(128, 128, 128, 0.651);
+ }
+
+ .cfo_peragraph{
+     margin-top: 25%;
+     margin-left: 100px;
+     font-weight: bolder;
+     text-align: left;
+     font-size: x-large;
+     
+ }
+
+
+.cfo_servises_peragraph{
+    font-family: cursive;
+    font-weight: bold;
+    color:gray;
+    margin-top: 0%;
+    margin-left: 0px;
+    text-align: left;
+    margin-left: 100px;
+}
+
+.display{
+    display:flex;
+    flex-direction: column;
+}
+.expand1{
+    border-radius: 10px;
+    border-width: 1px;
+    background-color: whitesmoke;
+    margin-left: 35%;
+    margin-top: 20px;
+    width: 150px;
+    height: 30px;
+    background-color: rgb(12, 12, 177);
+    cursor: pointer;
+    color: white;
+    transition: 10ms ;
+}
+.expand1:hover,.expand2:hover,.expand3:hover,.expand4:hover,.expand5:hover,.expand6:hover,.expand7:hover,.expand8:hover{
+    font-size: 17px;
+}
+
+a{
+    transition: 50ms;
+}
+
+.gst_services{
+    display: flex;
+}
+
+.display2{
+    display: flex;
+    flex-direction: column;
+}
+
+.img20{
+    height: 349px;
+     width: 270px;
+    margin-right: 120px;
+    margin-top: 100px;
+    box-shadow: 20px 20px 20px rgba(128, 128, 128, 0.651);
+}
+
+.gst_peragraph{
+    margin-top: 17%;
+    margin-right: 100px;
+    font-weight: bolder;
+    text-align: right;
+    font-size: x-large;
+}
+
+.gst_servises_peragraph{
+    font-family: cursive;
+    font-weight: bold;
+    color:gray;
+    margin-top: 0%;
+    text-align: right;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.expand2{
+    border-radius: 10px;
+    border-width: 1px;
+    background-color: whitesmoke;
+    margin-left: 50%;
+    margin-top: 20px;
+    width: 150px;
+    height: 30px;
+    background-color: rgb(12, 12, 177);
+    color: white;
+    cursor: pointer;
+    transition: 10em;
+}
+
+.provider_services{
+    display: flex;
+    
+
+}
+
+ .img21{
+     height: 349px;
+     width: 270px;
+     margin-top: 100px;
+     margin-left: 110px; 
+     box-shadow: 20px 20px 20px rgba(128, 128, 128, 0.651);
+ }
+
+ .provider_peragraph{
+     margin-top: 17%;
+     margin-left: 100px;
+     font-weight: bolder;
+     text-align: left;
+     font-size: x-large;
+     
+ }
+
+
+.provider_servises_peragraph{
+    font-family: cursive;
+    font-weight: bold;
+    color:gray;
+    margin-top: 0%;
+    margin-left: 0px;
+    text-align: left;
+    margin-left: 100px;
+}
+
+.display3{
+    display:flex;
+    flex-direction: column;
+}
+.expand3{
+    border-radius: 10px;
+    border-width: 1px;
+    background-color: whitesmoke;
+    margin-left: 35%;
+    margin-top: 20px;
+    width: 150px;
+    height: 30px;
+    background-color: rgb(12, 12, 177);
+    color: white;
+    cursor: pointer;
+    transition: 10em;
+
+}
+
+.finance_services{
+    display: flex;
+}
+
+.display4{
+    display: flex;
+    flex-direction: column;
+}
+
+.img22{
+    height: 349px;
+     width: 270px;
+    margin-right: 120px;
+    margin-top: 100px;
+    box-shadow: 20px 20px 20px rgba(128, 128, 128, 0.651);
+}
+
+.finance_peragraph{
+    margin-top: 17%;
+    margin-right: 100px;
+    font-weight: bolder;
+    text-align: right;
+    font-size: x-large;
+}
+
+.finance_servises_peragraph{
+    font-family: cursive;
+    font-weight: bold;
+    color:gray;
+    margin-top: 0%;
+    text-align: right;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.expand4{
+    border-radius: 10px;
+    border-width: 1px;
+    background-color: whitesmoke;
+    margin-left: 50%;
+    margin-top: 20px;
+    width: 150px;
+    height: 30px;
+    background-color: rgb(12, 12, 177);
+    color: white;
+    cursor: pointer;
+    transition: 10em;
+
+}
+
+.blog_services{
+    display: flex;
+    
+
+}
+
+ .img23{
+     height: 349px;
+     width: 270px;
+     margin-top: 100px;
+     margin-left: 110px; 
+     box-shadow: 20px 20px 20px rgba(128, 128, 128, 0.651);
+ }
+
+ .blog_peragraph{
+     margin-top: 17%;
+     margin-left: 100px;
+     font-weight: bolder;
+     text-align: left;
+     font-size: x-large;
+     
+ }
+
+
+.blog_servises_peragraph{
+    font-family: cursive;
+    font-weight: bold;
+    color:gray;
+    margin-top: 0%;
+    margin-left: 0px;
+    text-align: left;
+    margin-left: 100px;
+}
+
+.display5{
+    display:flex;
+    flex-direction: column;
+}
+.expand5{
+    border-radius: 10px;
+    border-width: 1px;
+    background-color: whitesmoke;
+    margin-left: 35%;
+    margin-top: 20px;
+    width: 150px;
+    height: 30px;
+    background-color: rgb(12, 12, 177);
+    color: white;
+    cursor: pointer;
+    transition: 10em;
+}
+
+.tax_services{
+    display: flex;
+}
+
+.display6{
+    display: flex;
+    flex-direction: column;
+}
+
+.img24{
+    height: 349px;
+     width: 270px;
+    margin-right: 120px;
+    margin-top: 100px;
+    box-shadow: 20px 20px 20px rgba(128, 128, 128, 0.651);
+}
+
+.tax_peragraph{
+    margin-top: 17%;
+    margin-right: 100px;
+    font-weight: bolder;
+    text-align: right;
+    font-size: x-large;
+}
+
+.tax_servises_peragraph{
+    font-family: cursive;
+    font-weight: bold;
+    color:gray;
+    margin-top: 0%;
+    text-align: right;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.expand6{
+    border-radius: 10px;
+    border-width: 1px;
+    background-color: whitesmoke;
+    margin-left: 50%;
+    margin-top: 20px;
+    width: 150px;
+    height: 30px;
+    background-color: rgb(12, 12, 177);
+    color: white;
+    cursor: pointer;
+    transition: 10em;
+}
+
+.consultancy_services{
+    display: flex;
+    
+
+}
+
+ .img25{
+     height: 349px;
+     width: 270px;
+     margin-top: 100px;
+     margin-left: 110px; 
+     box-shadow: 20px 20px 20px rgba(128, 128, 128, 0.651);
+ }
+
+ .consultancy_peragraph{
+     margin-top: 17%;
+     margin-left: 100px;
+     font-weight: bolder;
+     text-align: left;
+     font-size: x-large;
+     
+ }
+
+
+.consultancy_servises_peragraph{
+    font-family: cursive;
+    font-weight: bold;
+    color:gray;
+    margin-top: 0%;
+    margin-left: 0px;
+    text-align: left;
+    margin-left: 100px;
+}
+
+.display7{
+    display:flex;
+    flex-direction: column;
+}
+.expand7{
+    border-radius: 10px;
+    border-width: 1px;
+    background-color: whitesmoke;
+    margin-left: 35%;
+    margin-top: 20px;
+    width: 150px;
+    height: 30px;
+    background-color: rgb(12, 12, 177);
+    color: white;
+    cursor: pointer;
+    transition: 10em;
+}
+
+.regstration_services{
+    display: flex;
+}
+
+.display8{
+    display: flex;
+    flex-direction: column;
+}
+
+.img26{
+    height: 349px;
+     width: 270px;
+    margin-right: 120px;
+    margin-top: 100px;
+    box-shadow: 20px 20px 20px rgba(128, 128, 128, 0.651);
+}
+
+.regstration_peragraph{
+    margin-top: 17%;
+    margin-right: 100px;
+    font-weight: bolder;
+    text-align: right;
+    font-size: x-large;
+}
+
+.regstration_servises_peragraph{
+    font-family: cursive;
+    font-weight: bold;
+    color:gray;
+    margin-top: 0%;
+    text-align: right;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.expand8{
+    border-radius: 10px;
+    border-width: 1px;
+    background-color: whitesmoke;
+    margin-left: 50%;
+    margin-top: 20px;
+    width: 150px;
+    height: 30px;
+    background-color: rgb(12, 12, 177);
+    color: white;
+    cursor: pointer;
+    transition: 10em;
+}
+
+.know{
+    display: flex;
+    flex-direction: column;
+    height: 250px;
+    width: 100%;
+    background-color: orange;
+    margin-top: 40px;
+    text-align: center;
+}
+
+.who{
+    display: flex;
+    margin-left: 43%;
+    font-size: x-large;
+    margin-top: 50px;
+}
+
+.we_are{
+    color: white;
+    padding-left: 10px;
+}
+
+#phnicon{
+    margin-left: 100%;
+    margin-top: 30px;
+}
+
+#mailicon{
+    margin-left: 50%;
+    margin-top: 30px;
+
+}
+.why{
+    display: flex;
+    margin-left: 25%;
+    padding-top: 50px;
+    
+}
+
+.bcl1{
+    color: rgba(230, 7, 7, 0.719);
+    padding-left: 10px;
+}
+.choose{
+    background-color: rgba(245, 245, 245, 0.541);
+    padding-right: 100px;
+    padding-left: 0px;
+}
+.choos{
+    display: flex;
+    align-items: center;
+    margin-left: 5%;
+}
+.icon-puenk{
+    height: 75px;
+    margin-top: 5%;
+    margin-left: 150px;
+    margin-right: 8px;
+}
+.icon-images{
+    height: 75px;
+    margin-top: 5%;
+    margin-left: 40px;
+    margin-right: 8px;
+}
+.timely{
+    display: flex;
+    flex-direction: column;
+    margin-top: 4% ;
+}
+.efficient{
+    font-family: cursive;
+    color: gray;
+    margin-top: 0px;
+}
+.choos1{
+    display: flex;
+    align-items: center;
+    margin-left: 5%;
+}
+.icon-puenk1{
+    height: 75px;
+    margin-top: 5%;
+    margin-left: 150px;
+    margin-right: 8px;
+}
+.icon-images1{
+    height: 75px;
+    margin-top: 5%;
+    margin-left: 40px;
+    margin-right: 8px;
+}
+.timely2{
+    display: flex;
+    flex-direction: column;
+    margin-top: 4% ;
+}
+.efficient2{
+    font-family: cursive;
+    color: gray;
+    margin-top: 0px;
+
+}
+
+.case{
+    background-color: tomato;
+    height: 300px;
+    margin-top: 20px;
+}
+.incase{
+    font-size: 50px;
+    margin-left: 130px;
+    margin-top: 0px;
+    padding-top: 50px;
+    color: white;
+}
+.kindlt{
+    margin-left: 130px;
+
+}
+.difficulity{
+    display: flex;
+    margin-left: 110px;
+}
+.call{
+    height: 60px;
+    width: 280px;
+    font-weight: bolder;
+    background-color: rgba(255, 235, 205, 0);
+    border-color: white;
+    border-width: 1px;
+    margin-left: 20px;
+    border-radius: 5px;
+    
+}
+footer{
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    height: 300px;
+    width: 100%;
+    margin-top: 40px;
+    position:static;
+
+}
+.footer{
+    margin-left: 300px;
+    color: white;
+    margin-top: 60px;
+
+}
+#whatsapp{
+    color: greenyellow;
+}
+.important{
+    margin-left: 60px;
+    color: white;
+    margin-top: 60px;
+
+}
+
+.refer{
+    list-style-type: none;
+    color: white;
+    
+    
+}
+.footer_link{
+    color: white;
+    text-decoration: none;
+    margin-left: 0px;
+    padding-left: 0px;
+}
+.about_section{
+    height: 300px;
+    width: 1520px;
+    background-image: url(./jitu2.jpg);
+    
+}
+
+.about_us1{
+    font-size: 100px;
+    text-align: center;
+    padding-top: 100px;
+    margin-top: 0px;
+    color: white;
+
+}
+
+.ima4{
+    float: right;
+    height: 200px;
+    margin-right: 250px;
+    margin-top: 150px;
+}
+.about_us_paragraph{
+    margin-top:  150px; 
+    margin-left: 200px;
+    word-spacing: 10px;
+}
+
+.about_background{
+    background-image: url(./v462-n-130-textureidea_1.jpg);
+    height: 600px;
+    margin-top: 50px;    
+    color: white;
+}
+.about_h1{
+    font-size: 50px;
+    text-align: center;
+    padding-top: 50px;
+    font-family: "Gill Sans", sans-serif;
+    font-weight: normal;
+}
+.about_1{
+    display: flex;
+    margin-left: 19%;
+    padding-top: 40px;
+}
+
+#about_icon{
+    color: tomato;
+    margin-left: 50%;
+}
+#about_icon1{
+    color: tomato;
+    margin-left: 50%;
+}
+#about_icon2{
+    color: tomato;
+    margin-left: 65%;
+}
+.about_image2{
+    
+    margin-left: 100px;
+}
+.about_img1{
+    height: 50px;
+    width: 50px;
+    margin-left: 100px;
+    
+}
+
+.about_p1{
+    text-align: center;
+    margin-left: 40px;
+}
+.about_p2{
+    text-align: center;
+    margin-left: 180px;
+}
+.about_2{
+    display: flex;
+    margin-left: 32%;
+    padding-top: 40px;
+}
+
+.cfo_1{
+    margin-left: 250px;
+}
+.cfo_button1{
+    padding: 20px;
+    background-color: rgba(0, 0, 255, 0.801);
+    color: white;
+    border: thin;
+    margin-top: 100px;
+    font-weight: bold;
+}
+.cfo_button2{
+    padding: 20px;
+    background-color: rgba(0, 0, 255, 0.801);
+    color: white;
+    border: thin;
+    width: 100px;
+    margin-left: 200px;
+    font-weight: bold;
+}
+.cfo_img1{
+    float: right;
+    margin-right: 100px;
+    margin-top: 50px;
+}
+.cfo_p2{
+    padding-left: 40px;
+    padding-top: 100px;
+    padding-bottom: 40px;
+    background-color: rgba(128, 128, 128, 0.315);
+    margin-top: 10px;
+}
+.click{
+    padding: 10px;
+    border-radius: 5px;
+    background-color: rgba(0, 0, 255, 0.801);
+    border-width: thin;
+    margin-top: 150px;
+    margin-left: 100px;
+    color: white;
+    font-weight: bold;
+}
+.services_offered{
+    background-color: rgba(128, 128, 128, 0.671);
+    height: 650px;
+    padding-top: 10px;
+    padding-bottom: 30px;
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+.cfo_offer{
+    font-size: 50px;
+    margin-left:  100px; 
+}
+
+.cfo_p3{
+    margin-left: 100px;
+    margin-right: 100px;
+}
+.str{
+    margin-left: 100px;
+}
+.cfo_gain{
+    margin-left: 30%;
+    color: blue;
+    font-size: xx-large;
+}
+.cfo_what{
+    margin-left: 100px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.form{
+    margin-left: 100px;
+    margin-top: 80px;
+
+}
+.form_input1,.form_input2{
+    margin-left: 100px;
+    margin-top: 10px;
+    padding: 10px;
+    width: 400px;
+}
+.form_input3{
+    margin-left: 100px;
+    margin-top: 10px;
+    padding: 10px;
+    width: 400px;
+    height: 100px;
+}
+.form_all{
+
+    background-color:whitesmoke;
+    padding-left: 300px;
+    padding-top: 5px;
+    padding-bottom: 40px;
+    margin-top: 50px;
+    
+}
+#form_all{
+    background-color: white;
+}
+.form_submit1{
+    background-color: blue;
+    color: white;
+    padding: 15px;
+    margin-left: 100px;
+    width: 100px;
+}
+
+.ima5{
+    float: right;
+    height: 400px;
+    width: 450px;
+    margin-right: 200px;
+    margin-top: 150px;
+}
+.join_us_paragraph{
+    
+        margin-top:  150px; 
+        margin-left: 200px;
+        word-spacing: 10px;
+    
+}
+.contact_info{
+    display: flex;
+    margin-top: 150px;
+}
+.contact_address{
+    display: flex;
+    flex-direction: column;
+    margin-left: 300px;
+}
+#contact_icon{
+    color: navy;
+    text-align: center;
+}
+#contact_icon1{
+    text-align: center;
+    color: navy;
+}
+.contact_number{
+    display: flex;
+    flex-direction: column;
+    margin-left: 200px;
+    font-size: large;
+}
+
+.img28{
+    height: 349px;
+    width: 270px;
+    margin-top: 150px;
+    margin-left: 110px; 
+    box-shadow: 20px 20px 20px rgba(128, 128, 128, 0.651);
+    margin-bottom: 40px;
+}
+
+.reg_peragraph{
+    margin-top: 20%;
+    margin-left: 100px;
+    font-weight: bolder;
+    text-align: left;
+    font-size: x-large;
+    
+}
+.form_all1{
+
+    background-color: whitesmoke;
+    padding-left: 300px;
+    padding-top: 5px;
+    padding-bottom: 40px;
+    
+}
+.img29{
+    height: 349px;
+    width: 350px;
+    margin-top: 150px;
+    margin-left: 110px; 
+    box-shadow: 20px 20px 20px rgba(65, 59, 59, 0.651);
+    margin-bottom: 40px;
+}
+.reg_peragraph1{
+    margin-top: 2%;
+    margin-left: 100px;
+    font-weight: bolder;
+    text-align: left;
+    font-size: x-large;
+    
+}
+.refrance_form{
+    margin-top: 100px;
+    margin-left: 150px;
+
+}
+.refer_input1{
+    margin-left: 100px;
+    margin-top: 10px;
+    margin-bottom: 50px;
+    padding: 10px;
+    width: 400px;
+}
+
+
+/* for mobiles (Portrait) */
+
+@media screen  and (min-width : 320px) and (max-width : 481px){
+
+   
+
+    .headlist {
+        display: none;
+    }
+
+    .company_name {
+        width: 600px;
+        height: auto;
+    }
+
+    .head {
+        
+        position: relative;
+        right: 80px;
+        bottom: 60px;
+        
+    }
+
+    
+
+    .nav1 {
+        margin-top: 0%;
+        position: relative;
+        width: 96rem;
+        top: 130px;
+        
+    }
+
+    /* Section Main */
+
+    section {
+        position: relative;
+        bottom: 10px;
+        background-image: url(./jitu2.jpg);
+        background-repeat: no-repeat;
+        width: 1530px;
+        height: 500px;
+        margin-top: 30%;
+        
+       
+    }
+
+
+    .cfo_servises_peragraph , .gst_servises_peragraph, .provider_servises_peragraph ,.regstration_servises_peragraph ,.blog_servises_peragraph {
+        display: none;
+    }
+
+    .main {
+        position: relative;
+        right: 490px;
+       
+    }
+    
+
+    .button2   {
+        display: none;
+    }
+
+    .professional {
+        text-align: center;
+        font-size: 2.5rem;
+        position: relative;
+        left: 90px;
+        top : 20px;
+    }
+
+    .take {
+        position: relative;
+        left: 48px;
+        top: 50px;
+        text-align: center;
+        font-size: 2.5rem;
+    } 
+
+    .states {
+        width: 40%;
+        
+        /* text-align: center; */
+        position: relative;
+        top: 70px;
+        left: 280px;
+    
+
+        
+    }
+    .optimize, .peragraph, .consultation, .get {
+        text-align: center;
+        position: relative;
+        right: 55px;
+        
+        font-size: 2rem;
+    }
+
+    .optimize {
+        position: absolute;
+        top: 0.2px;
+        
+        
+    }
+    .peragraph, .consultation, .get {
+        top: 120px;
+        
+        
+    }
+/* 
+    .get {
+        position: absolute;
+        top: 210px;
+        left: 0px;
+        right: 5px;
+    } */
+
+
+
+    .row {
+        position: relative;
+        left: 250px;
+        bottom: 100px;
+
+    }
+
+    .img19 {
+        
+        width: 800px;
+        
+        height: auto;
+    }
+
+    .cfo_peragraph {
+        position: relative;
+        top: 1250px;
+        right: 730px;
+        width: 150%;
+        font-size: 40px;
+        text-align: center;
+    }
+
+     .btn1 {
+        position: relative;
+        right: 600px;
+        top: 1200px;
+        height: 50%;
+        
+        
+    } 
+
+    .page1 {
+        display: none;
+    }
+
+    .expand1 , .expand2, .expand3, .expand4, .expand5 {
+        width: 200px;
+        height: 100px;
+        
+        font-size: 2rem;
+    }
+
+    /* GST services */
+
+    .gst_services {
+        position: relative;
+        top: 350px;
+        right: 330px;
+        
+        
+    }
+    .img20 {
+        width: 800px;
+        
+        height: auto;
+    }
+    .gst_peragraph {
+        text-align: center;
+        font-size: 60px;
+        position: relative;
+        top: 1120px;
+        left: 158%;
+    }
+
+    .btn2 {
+        position: relative;
+        top: 1070px;
+        left: 530px;
+    }
+
+    /* Service Providers */
+
+    .provider_services {
+        position: relative;
+        top: 650px;
+        margin: auto;
+    }
+
+    .img21 {
+        width: 800px;
+        height: auto;
+    }
+
+    .provider_peragraph {
+        position: relative;
+        top: 600px;
+        text-align: center;
+        font-size: 40px;
+        right: 610px;
+    }
+
+    .btn3 {
+        position: relative;
+        top: 580px;
+        right: 600px;
+    }
+
+    /* Registration Services */
+
+    .regstration_services {
+        position: relative;
+        top: 1100px;
+    }
+
+    .img26 {
+        width: 800px;
+        height: auto;
+        position: relative;
+        right: 250px;
+    }
+
+    .regstration_peragraph {
+        position: relative;
+        top: 880px;
+        left: 390px;
+        font-size: 50px;
+    }
+    .btn4 {
+        position: relative;
+        top: 850px;
+        left: 300px;
+    }
+
+
+    /* Who we are section */
+    
+    .know {
+        margin-top: 1650px;
+        width: 1530px;
+        text-align: center;
+    }
+
+    .who {
+        margin-top: 30px;
+        margin-bottom: 30px;
+ 
+    }
+
+    .we_are , .who1 {
+        font-size: 4rem;
+        text-align: center;
+        position: relative;
+        right: 100px;
+    }
+
+    .KS {
+        font-size: 2.2rem;
+        text-align: center;
+        
+    }
+
+    /* Why Choose Kejriwal Solution Section */
+
+    .choose {
+        width: 1530px;
+        height: 1000px;
+    }
+
+    .why {
+        text-align: center;
+        padding-top: 100px;
+        margin-bottom: 30px;
+        position: relative;
+        right: 170px;
+        
+    }
+
+    .why h1 {
+        font-size: 4rem;
+    }
+
+    .efficient, .efficient2 {
+        display: none;
+    }
+
+    .choos {
+        position: relative;
+        right: 150px;
+        
+        
+    }
+
+    .mdq1 {
+        width: 50%;
+        height: auto;
+    }
+
+    .mdq2 {
+        width: 15%;
+        height: auto;
+    }
+
+    .wcw {
+        font-size: 2.5rem;
+    }
+
+    
+
+    .choos1 {
+        position: relative;
+        top: 50px;
+        right: 190px;
+    }
+
+    .icon-puenk1,  .icon-images1 {
+        width: 20%;
+        height: auto;
+    }
+    
+    .icon-images {
+        width: 15%;
+        height: auto;
+    }
+
+    /* Contact Details section  */
+
+    .case {
+        width: 1530px;
+        height: 450px;
+        text-align: center;
+    }
+
+    .incase, .kindlt {
+        text-align: center;
+        position: relative;
+        right: 80px;
+    }
+
+    .incase {
+        font-size: 6rem;
+        
+    }
+
+    .kindlt {
+        font-size: 3rem;
+    }
+
+
+
+    .call{
+        width: 30%;
+        position: relative;
+        top: 80px;
+        left: 190px;
+        font-size: 2.3rem;
+        font-weight: bold;
+        
+    }
+
+    /* Footer Section */
+
+    footer {
+        width: 1530px;
+        height: 800px;
+        margin-top: 0;
+        text-align: center;
+    }
+
+    .footer {
+        position: relative;
+        right: 230px;
+        margin-top: 70px;
+        
+    }
+
+    .ref {
+        font-size: 3.5rem;
+    }
+
+    .refer {
+        position: relative;
+        right: 20px;
+    }
+
+    .footer_link {
+        font-size: 2.3rem;
+    }
+
+    .important {
+        position: relative;
+        right: 50px;
+        margin-top: 70px;
+        width: 50%;
+        
+    }
+
+    .IMP {
+        position: relative;
+        right: 80px;
+    }
+
+    .LUR {
+        position: relative;
+        
+    }
+
+    .office {
+        font-size: 2.3rem;
+    }
+    
+    .nn {
+        font-size: 2.3rem;
+    }
+
+    /* Join US Page */
+
+    .about_section{
+        height: 300px;
+        width: 1520px;
+        background-image: url(./jitu2.jpg);
+        background-repeat: no-repeat;
+        
+    }
+
+    .form {
+        position: relative;
+        width: 300%;
+        font-size: 3rem;
+        left: 100px;
+        bottom: 100px;
+        text-align: center;
+    }
+
+    form {
+        position: relative;
+        
+    }
+
+    input[type=text], input[type=email] , input[type=city], .form_input2, textarea ,.form_submit1  {
+        position: relative;
+        left: 120px;
+        bottom: 80px;
+        width: 300%;
+        height: auto;
+        
+      }
+
+    .foot {
+        margin-top: 300px;
+    }
+
+    .form_all {
+        padding: 50px;
+    }
+    
+
+    /* Contact Us Page */
+    
+    .contact_info {
+        padding: 100px;
+    }
+
+    
+    .contact_address {
+        position: relative;
+        right: 350px;
+    }
+
+    .contact_us_offfice {
+        font-size: 3rem;
+    }
+
+    .contact_number {
+        position: relative;
+        right: 350px;
+        width: 300%;
+    }
+
+    .contact_us_number {
+        font-size: 3rem;
+        width: 150%;
+        position: relative;
+        right: 50px;
+    }
+
+    .contact_email {
+        position: relative;
+        
+        
+    }
+
+    .contact_us_number {
+        font-size: 3rem;
+    }
+
+    #con_mail {
+        font-size: 3rem;
+    }
+
+    .contact_footer {
+        margin-top: 30px;
+    }
+
+    
+
+
+
+    
+
+
+
+    
+
+   
+    
+
+    
+    
+    
+
+
+    
+}
+
+
+
+
+
+@media screen and (min-width : 482px) and (max-width:991px) {
+    
+    * {
+        box-sizing: border-box;
+    }
+    
+  
+
+    section {
+        background-image: url(./jitu2.jpg);
+        background-repeat: no-repeat;
+        width: 990px;
+    }
+
+    .sec2 {
+        width: 50%;
+        
+       
+    }
+    
+    .headlist {
+        display: none;
+    }
+
+    .row {
+        width: 990px;
+        margin-left: 16%;
+        
+    }
+
+    .cfo_servises_peragraph , .gst_servises_peragraph, .provider_servises_peragraph {
+        display: none;
+    }
+
+    .btn1 {
+        width: 20%;
+        position: relative;
+        top: 80px;
+        left: 28px;
+        height: 100%;
+        
+    }
+
+    .expand1 {
+        height: 10%;
+        font-size: 20px;
+    }
+    
+
+    .page1 {
+        display: none;
+    }
+    .cfo_peragraph  {
+        position: relative;
+        top : 100px;
+        right: 30px;
+        font-size: 250%;
+    }
+
+    .provider_peragraph {
+        position: relative;
+        top : 20px;
+        right: 30px;
+        font-size: 250%;
+    }
+
+    .btn3 {
+        position: relative;
+        right: 145px;
+        height: 100%;
+
+    }
+    .expand3 {
+        height: 15%;
+        font-size: 20px;
+    }
+    
+
+    
+} 
+/* service provider css*/
+.img51{
+    height: 349px;
+    width: 270px;
+    margin-top: 150px;
+    margin-left: 200px; 
+    box-shadow: 20px 20px 20px rgba(128, 128, 128, 0.651);
+}
+.service_provider{
+     margin-left: 250px;
+     font-weight: bolder;
+     text-align: left;
+     font-size: large;
+     
+
+}
+.service_provider1{
+    margin-left: 180px;
+    font-weight: bolder;
+    text-align: left;
+    font-size: large;
+    
+
+}
+.service_provider2{
+    margin-left: 380px;
+    font-weight: bolder;
+    text-align: left;
+    font-size: large;
+    
+
+}
+.sale{
+    display: flex;
+    flex-direction: row;
+}
+.imgsrv{
+    height: 349px;
+    width: 270px;
+    margin-top: 150px;
+    margin-left: 350px; 
+    box-shadow: 20px 20px 20px rgba(128, 128, 128, 0.651);
+}
+.imgsrv3{
+    height: 349px;
+    width: 270px;
+    margin-right: 170px;
+    margin-top:80px ;
+    box-shadow: 20px 20px 20px rgba(128, 128, 128, 0.651);
+}
+
+.service_provider3{
+    margin-left: 580px;
+    font-weight: bolder;
+    text-align: left;
+    font-size: large;
+    
+
+}
+
+
+
+ 
+
+
+
+
